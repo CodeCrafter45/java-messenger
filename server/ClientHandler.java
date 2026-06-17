@@ -77,7 +77,7 @@ public class ClientHandler implements Runnable {
                     // Reject and loop again
                     out.println("[SYSTEM ERROR]: That username is already taken! Try another.");
                 } else {
-                    // Name is perfect! Save it and break the loop
+                  
                     this.username = inputName;
                     break;
                 }
@@ -87,7 +87,7 @@ public class ClientHandler implements Runnable {
             out.println("Welcome, " + this.username + "! Connection secured.");
             broadcastMessage("[SYSTEM]: " + this.username + " has entered the chat!");
             System.out.println("\n[SYSTEM]: " + this.username + " joined.");
-            System.out.print("Server type message: ");
+            
 
             String inputLine;
             while ((inputLine = in.readLine()) != null) {
