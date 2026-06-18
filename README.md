@@ -169,23 +169,11 @@ This project helped me gain practical experience with:
 * [x] Thread Pool Integration
 * [x] Active User Management
 * [x] Docker Containerization
-* [ ] AWS Deployment
-* [ ] Database Integration
-* [ ] Chat Rooms
-* [ ] User Authentication
+
 
 ---
 
-## Future Improvements
 
-* Docker-based deployment
-* AWS cloud hosting
-* Persistent message storage
-* Database integration
-* User authentication
-* Chat rooms
-* End-to-end encryption
-* Distributed/P2P communication experiments
 
 ---
 
