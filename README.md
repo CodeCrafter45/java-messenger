@@ -168,7 +168,7 @@ This project helped me gain practical experience with:
 * [x] Duplicate Username Validation
 * [x] Thread Pool Integration
 * [x] Active User Management
-* [ ] Docker Containerization
+* [x] Docker Containerization
 * [ ] AWS Deployment
 * [ ] Database Integration
 * [ ] Chat Rooms
