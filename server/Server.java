@@ -13,10 +13,9 @@ public class Server {
     public static void main(String[] args) {
         ExecutorService threadPool = Executors.newCachedThreadPool();
 
-        // Start a dedicated thread for the server operator's keyboard typing
-       
+        
 
-        // Main thread manages incoming client connections
+     
         try (ServerSocket serverSocket = new ServerSocket(PORT)) {
             System.out.println("\nServer started. Waiting for clients on port " + PORT + "...");
             
